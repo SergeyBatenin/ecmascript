@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 1 ECMAS</title>
+</head>
+<body>
+    <div id="root">
+        Родитель
+        <div>
+            Ребенок 1
+            <div>
+                Правнук 1_1
+            </div>
+            <div class="target">
+                Правнук 1_2 c target
+            </div>
+        </div>
+        <div>
+            Ребенок 2
+            <div>
+                Правнук 2_1
+            </div>
+            <div>
+                Правнук 2_2
+                <div class="target">
+                    ПраПравнук 2_2_1 c target
+                </div>
+            </div>
+        </div>
+        <div class="target">
+            Ребенок 3 c target
+        </div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
