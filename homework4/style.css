@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 32px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 16px;
+    width: 313px;
+    border: 2px solid black;
+}
+
+.removeBtn:hover {
+    cursor: pointer;
+}
